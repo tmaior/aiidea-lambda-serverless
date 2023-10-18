@@ -12,3 +12,7 @@ functions:
       - httpApi:
           path: /tweet
           method: get
+
+plugins:
+  - serverless-python-requirements
+

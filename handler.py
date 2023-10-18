@@ -84,6 +84,7 @@ def handler(event, context):
             }
             data_list.append(data)
 
+        print("-----------------------------")
         print(data_list)
 
         # Convert data to DataFrame
